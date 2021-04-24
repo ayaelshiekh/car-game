@@ -1,0 +1,137 @@
+/* Global */
+body{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+}
+.body{
+  padding: 0px;
+  margin: 0px;
+  background-color:rgba(0, 0, 0, 0.88);
+  min-height: 695px
+}
+.container{
+  padding:0px 150px;
+  
+}
+.top_nav{
+  padding: 18px;
+  font-size: 38px;
+  border-radius: 26px;
+  position: fixed;
+  left: 52px;
+  top: 34px;
+  z-index: 99999999999999999;
+  }
+  #menuDownIcon{
+    cursor: pointer;
+  }
+  #menuUpIcon{
+    cursor: pointer;
+    display: none;
+  }
+ul{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  padding-bottom: 27px;
+  position: fixed;
+  left: 10%;
+  top: 27px;
+  z-index: 99999999999999999;
+}
+li{
+  box-shadow: 0px 0px 15px white;
+  display: inline-block;
+  margin: 20px;
+  width: 241px;
+  border-radius: 37px;
+  border: 3px solid;
+  text-align: center;
+  padding: 4px 0;
+}
+li:hover{
+  background: rgba(0, 0, 0, 0.4);
+}
+li a{
+  font-family: -webkit-pictograph;
+  font-size: 40px;
+}
+a{
+  text-decoration:none;
+  color: white
+}
+.NavMenu{
+  display: none;
+  border-radius: 26px;
+}
+
+.mySlides {display:none}
+
+
+
+footer{
+
+     text-align: center;
+     position: fixed;
+     height: 73px;
+     bottom: 0px;
+     left: 35%;
+     z-index: 99999999999999999;
+}
+
+img{
+  position: fixed;
+  left: 0px;
+}
+.cover{
+  width: 100%;
+  min-height: 700px;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.77);
+ /* background:linear-gradient(215deg,rgba(84, 4, 4, 0.55) 47%, #000000) 59%;*/
+  box-shadow: 0px 0px 30px black;
+  z-index: 999999;
+  left: 0px;
+}
+.active{
+  color: #ec7970;
+}
+.caption{
+  position: fixed;
+  left: 10%;
+  top: 62px;
+  z-index: 99999999999999999;
+  font-size: 69px;
+  font-family: -webkit-pictograph;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 2px 3px 10px;
+  text-align: center;
+}
+span{color: #e29e9e;}
+#cap1{
+  top: 110px;
+  left: 20px;
+}
+#cap2{
+  top: 50px;
+  right: -500px;
+}
+#cap5{
+cursor: pointer;
+box-shadow: 0px 0px 15px #961515;
+  width: 141px;
+  border-radius: 37px;
+  border: 3px solid;
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(7, 7, 8, 0.83);
+  color: rgba(139, 0, 0, 0.7686274509803922);
+}
+#cap5:hover{
+  background-color: rgba(7, 7, 8, 0.93);
+  color: rgba(139, 0, 0, 0.9686274509803922);
+}

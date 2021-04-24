@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Car Racing</title>
+        <link rel="stylesheet" href="css/CarGame.css" />
+        <link rel="stylesheet" href="fontawesome-free-5.8.1-web\css/all.min.css">
+    </head>
+    <body>
+            <div class="top_nav"><i id="menuDownIcon" class="fas fa-bars"></i><i id="menuUpIcon" class="fas fa-times"></i></div>
+            <div class="music"><i id="mus" class="fas fa-volume-up"></i><i id="mute" class="fas fa-volume-mute"></i></div>
+            <div class="pauseGm"><i id="play" class="fas fa-play"></i><i id="pause" class="fas fa-pause"></i></div>
+
+
+            <audio loop id="aud">
+                <source src="sounds/Baby Car Car Songs Pinkfong Songs for Children.mp3" type="audio/ogg">
+                <source src="sounds/Baby Car Car Songs Pinkfong Songs for Children.mp3" type="audio/mpeg">
+
+                    Your browser does not support the audio tag.
+              </audio>
+            <ul class="NavMenu">
+                    <li><a href="Home.html">Home</a></li><br/>
+                    <li><a href="About.html">About </a></li><br/>
+                    <li><a href="Help.html">Help </a></li><br/>
+
+
+                </ul>
+            <div id="score_div"><span id="score">0</span></div>
+            <div class="startDiv">
+                <img src="imgs/3.png" alt="3" width="200" height="250" id="imgOne" class="anim"/>
+                <img src="imgs/2.png" alt="2" width="200" height="250" id="imgTwo" class="anim"/>
+                <img src="imgs/1.png" alt="1" width="200" height="250" id="imgThree" class="anim"/>
+                <img src="imgs/go.png" alt="go" width="200" height="200" id="imgFour" class="anim"/>
+               <button class="imgbtn" id="strtbtn"><img src="" alt="" width="350" height="400"  id="imgViewer" /></button>
+            </div>
+            <div id="container">
+                <div id="line_1" class="line"></div>
+                <div id="line_2" class="line"></div>
+                <div id="line_3" class="line"></div>
+                <img id="car" class="car" src="imgs/20.png" alt="c1" width="55px"/>                    
+                <img id="car_1" class="car" src="imgs/6b520c16627c6ea2ba7ca548a0e2accc.png" alt="c1" width="60px"/>                    
+                <img id="car_4" class="car" src="imgs/3b285320109d67a5188e2daad5d4603d.png" alt="c2" width="60px"/>                    
+                <img id="car_2" class="car" src="imgs/02e10208d91e425bdb547f58f7cc3b59 (2).png" alt="c3" width="50px"/>                    
+                <img id="car_3" class="car" src="imgs/02e10208d91e425bdb547f58f7cc3b59 (3).png" alt="c4" width="50px"/>                    
+                <div id="restart_div"><div><button id="restart">Restart</button></div></div>
+                <div id="continueGm"><div><button id="continueBtn">Continue</button></div></div>
+               
+            </div>
+            <script src="js/jquery-3.3.1.min.js"></script>
+            <script src="js/CarGame.js"></script>
+        </body>
+</html>
